@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/render?type=soft&color=auto&height=250&section=header&text=João%20Gabriel%20do%20Vale&fontSize=70&animation=fadeIn&fontAlignY=35&desc=Desenvolvedor%20Full%20Stack%20Pleno&descAlignY=60&descSize=25" width="100%" />
 
   <br>
 
