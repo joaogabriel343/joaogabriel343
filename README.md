@@ -60,10 +60,6 @@ Desenvolvedor Full Stack focado em **PHP** e arquiteturas escaláveis. No últim
 
 ### 📊 Atividade no GitHub (Real-time)
 
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=joaogabriel343&show_icons=true&theme=dark&include_all_commits=true&count_private=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaogabriel343&layout=compact&theme=dark&hide=html,css" />
-</div>
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=joaogabriel343&theme=dark" />
