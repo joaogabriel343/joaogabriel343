@@ -29,6 +29,16 @@ Atualmente desenvolvendo sistemas críticos na **Consolidai Sistemas** com respo
 
 ---
 
+## 🔥 Stack Principal (Maior Foco)
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=php,java,react,reactnative,mysql&perline=5" />
+  <p><strong>PHP 8.3+</strong> • <strong>Java</strong> • <strong>React 18+</strong> • <strong>React Native</strong> • <strong>MySQL 8.0+</strong></p>
+  <p><em>Tecnologias que mais domino e uso em produção</em></p>
+</div>
+
+---
+
 ## 📊 Estatísticas & Impacto
 
 <div align="center">
@@ -51,46 +61,60 @@ Atualmente desenvolvendo sistemas críticos na **Consolidai Sistemas** com respo
 
 ## 🛠️ Tech Stack Detalhado
 
+<div align="center">
+  <h3>🔴 STACK PRINCIPAL - MAIOR FOCO</h3>
+  <img src="https://skillicons.dev/icons?i=php,java,react,mysql" />
+  <p><strong>PHP 8.3+</strong> • <strong>Java</strong> • <strong>React 18+</strong> • <strong>React Native</strong> • <strong>MySQL 8.0+</strong></p>
+</div>
+
 <table align="center">
   <tr>
     <td align="center" width="20%">
-      <h3>Back-end</h3>
-      <img src="https://skillicons.dev/icons?i=php,nodejs,express,fastapi" />
-      <p><small>PHP 8.3 • Node.js • Express • APIs REST</small></p>
+      <h3>🔥 Back-end (PHP & Java)</h3>
+      <img src="https://skillicons.dev/icons?i=php,java,nodejs,express" />
+      <p><small><strong>PHP 8.3</strong> • <strong>Java</strong> • <strong>Node.js</strong> • <strong>Express</strong> • APIs REST</small></p>
     </td>
     <td align="center" width="20%">
-      <h3>Front-end</h3>
-      <img src="https://skillicons.dev/icons?i=react,nextjs,typescript,tailwind" />
-      <p><small>React 18+ • Next.js 14 • TypeScript • Tailwind</small></p>
+      <h3>⚡ Front-end</h3>
+      <img src="https://skillicons.dev/icons?i=react,nextjs,vite,typescript,tailwind" />
+      <p><small><strong>React 18+</strong> • <strong>Next.js</strong> • <strong>Vite</strong> • <strong>TypeScript</strong> • Tailwind</small></p>
     </td>
     <td align="center" width="20%">
-      <h3>Mobile</h3>
-      <img src="https://skillicons.dev/icons?i=react,expo" />
-      <p><small>React Native • Expo • Cross-platform</small></p>
+      <h3>📱 Mobile (React Native)</h3>
+      <img src="https://skillicons.dev/icons?i=react,expo,flutter" />
+      <p><small><strong>React Native</strong> • <strong>Expo</strong> • Flutter <br/><small>(aprendendo)</small></small></p>
     </td>
     <td align="center" width="20%">
-      <h3>Database</h3>
+      <h3>🗄️ Database (SQL)</h3>
       <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb" />
-      <p><small>MySQL 8.0 • PostgreSQL • SupaBase</small></p>
+      <p><small><strong>MySQL 8.0+</strong> • <strong>PostgreSQL</strong> • SupaBase</small></p>
     </td>
     <td align="center" width="20%">
-      <h3>DevOps & Tools</h3>
+      <h3>🚀 DevOps</h3>
       <img src="https://skillicons.dev/icons?i=docker,git,github,vercel" />
-      <p><small>Docker • Git Flow • Vercel • CI/CD</small></p>
+      <p><small>Docker • Git Flow • <strong>Vercel</strong> • CI/CD</small></p>
     </td>
   </tr>
 </table>
 
-### 🎯 Proficiência por Linguagem
+### 🎯 Proficiência por Linguagem (Maior Foco)
 
 ```
-PHP          ████████████████████░ 85%
-React        ███████████████████░░ 90%
-Node.js      ████████████████░░░░░ 86%
-TypeScript   ███████████████░░░░░░ 80%
-MySQL        ████████████████░░░░░ 86%
-JavaScript   ███████████████████░░ 89%
-React Native ███████████████░░░░░░ 84%
+🔴 STACK PRINCIPAL:
+PHP          ████████████████████░ 85% ⭐⭐⭐⭐⭐
+React        ███████████████████░░ 90% ⭐⭐⭐⭐⭐
+React Native ███████████████░░░░░░ 84% ⭐⭐⭐⭐⭐
+MySQL/SQL    ████████████████░░░░░ 86% ⭐⭐⭐⭐⭐
+Java         ███████████████░░░░░░ 85% ⭐⭐⭐⭐⭐
+
+🔵 COMPLEMENTAR:
+Node.js      ████████████████░░░░░ 86% ⭐⭐⭐⭐
+Next.js      ███████████████░░░░░░ 88% ⭐⭐⭐⭐
+Vite         ████████████░░░░░░░░░ 82% ⭐⭐⭐⭐
+TypeScript   ███████████████░░░░░░ 80% ⭐⭐⭐⭐
+JavaScript   ███████████████████░░ 89% ⭐⭐⭐⭐⭐
+PostgreSQL   ████████████░░░░░░░░░ 78% ⭐⭐⭐
+Flutter      ████░░░░░░░░░░░░░░░░░ 35% 📚 Aprendendo
 ```
 
 ---
@@ -301,8 +325,9 @@ Responsabilidades:
 - ✅ CI/CD Pipelines e GitHub Actions
 - ✅ Escalabilidade e Performance
 
-### **Back-end**
-- ✅ PHP 8.3+ (POO, Namespaces, Traits)
+### **Back-end (PHP & Java)**
+- ✅ **PHP 8.3+** (POO, Namespaces, Traits, Clean Code)
+- ✅ **Java** (OOP, Design Patterns, Arquitetura)
 - ✅ Node.js & Express
 - ✅ Autenticação JWT & OAuth
 - ✅ Integração com APIs externas
@@ -311,21 +336,24 @@ Responsabilidades:
 ### **Front-end**
 - ✅ React 18+ com Hooks
 - ✅ Next.js 14+ (SSR, SSG, ISR)
+- ✅ Vite para bundling ultra-rápido
 - ✅ TypeScript avançado
 - ✅ Tailwind CSS & Styled Components
 - ✅ Responsividade mobile-first
 
-### **Mobile**
+### **Mobile (React Native)**
 - ✅ React Native profissional
 - ✅ Expo para deployment rápido
 - ✅ Navegação com React Navigation
 - ✅ Gerenciamento de estado (Redux, Context)
+- 📚 Flutter (aprendendo - Dart fundamentals)
 
-### **Database**
-- ✅ MySQL 8.0+ (Otimizações, Índices, Triggers)
-- ✅ PostgreSQL (JSON, Full-text search)
+### **Database (SQL)**
+- ✅ **MySQL 8.0+** (Otimizações, Índices, Triggers, Performance)
+- ✅ **PostgreSQL** (JSON, Full-text search)
 - ✅ SupaBase (Real-time, RLS)
 - ✅ Migrations e Schemas
+- ✅ Query optimization & Index design
 
 ### **DevOps & Ferramentas**
 - ✅ Docker & Docker Compose
