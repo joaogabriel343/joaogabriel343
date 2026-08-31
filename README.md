@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=3000&pause=1000&color=7B2CBF&center=true&vCenter=true&width=700&lines=João+Gabriel+Vale+Souza;Full+Stack+Developer+|+Software+Engineer;Criador+de+Soluções+Escaláveis+em+Produção;1.200%2B+Contribuições+|+109+PRs+Aprovadas;Torcedor+do+Galo+🏴+🏳️" />
+  <img src="https://raw.githubusercontent.com/joaogabriel343/joaogabriel343/main/header.svg" />
 </div>
 
 <br>
@@ -470,7 +470,7 @@ _Disponível para trabalho remoto (preferido) ou híbrido_
 
 ---
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2000&pause=500&color=7B2CBF&center=true&vCenter=true&width=500&lines=Obrigado+por+visitar!;Vamos+construir+algo+incrível+%3F" />
+<img src="https://raw.githubusercontent.com/joaogabriel343/joaogabriel343/main/footer.svg" />
 
 **Feito com ❤️ por João Gabriel**
 
