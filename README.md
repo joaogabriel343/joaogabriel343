@@ -32,8 +32,8 @@ Atualmente desenvolvendo sistemas críticos na **Consolidai Sistemas** com respo
 ## 🔥 Stack Principal (Maior Foco)
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=php,java,react,reactnative,mysql&perline=5" />
-  <p><strong>PHP 8.3+</strong> • <strong>Java</strong> • <strong>React 18+</strong> • <strong>React Native</strong> • <strong>MySQL 8.0+</strong></p>
+  <img src="https://skillicons.dev/icons?i=php,java,react,mysql,git,docker&perline=6" />
+  <p><strong>PHP 8.3+</strong> • <strong>Java</strong> • <strong>React 18+</strong> • <strong>React Native</strong> • <strong>MySQL 8.0+</strong> • <strong>Git</strong> • <strong>Docker</strong></p>
   <p><em>Tecnologias que mais domino e uso em produção</em></p>
 </div>
 
@@ -76,12 +76,12 @@ Atualmente desenvolvendo sistemas críticos na **Consolidai Sistemas** com respo
     </td>
     <td align="center" width="20%">
       <h3>⚡ Front-end</h3>
-      <img src="https://skillicons.dev/icons?i=react,nextjs,vite,typescript,tailwind" />
+      <img src="https://skillicons.dev/icons?i=react,nextjs,vite,ts,tailwind" />
       <p><small><strong>React 18+</strong> • <strong>Next.js</strong> • <strong>Vite</strong> • <strong>TypeScript</strong> • Tailwind</small></p>
     </td>
     <td align="center" width="20%">
       <h3>📱 Mobile (React Native)</h3>
-      <img src="https://skillicons.dev/icons?i=react,expo,flutter" />
+      <img src="https://skillicons.dev/icons?i=react,dart,flutter,androidstudio" />
       <p><small><strong>React Native</strong> • <strong>Expo</strong> • Flutter <br/><small>(aprendendo)</small></small></p>
     </td>
     <td align="center" width="20%">
