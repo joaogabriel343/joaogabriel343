@@ -21,7 +21,7 @@
 
 Sou desenvolvedor **Full Stack Pleno** com **1.5+ anos** de experiência em produção, especializado em criar soluções escaláveis que impactam negócios reais. Apaixonado por resolver problemas complexos, arquitetura de software e performance.
 
-Atualmente desenvolvendo sistemas críticos na **Consolidai Sistemas** com responsabilidades em microserviços, APIs REST, e interfaces modernas. Já entreguei **5 produtos em produção** com centenas de usuários diários.
+Atualmente desenvolvendo sistemas críticos na **Consolidai Sistemas** com responsabilidades em microserviços, APIs REST, e interfaces modernas. Já entreguei **6 projetos** em produção ou desenvolvimento ativo, incluindo plataformas com pagamentos reais, ERP fiscal e sistemas de gestão.
 
 **📍 Localização:** Alfenas, Minas Gerais  
 **🎓 Formação:** Bacharelado em Ciência da Computação - UNIFENAS (em andamento)  
@@ -47,8 +47,7 @@ Atualmente desenvolvendo sistemas críticos na **Consolidai Sistemas** com respo
 |---------|-------|
 | **Contribuições (últimos 12 meses)** | 1.200+ |
 | **Pull Requests Aprovadas** | 109 |
-| **Produtos em Produção** | 5 |
-| **Usuários Ativos** | 500+ |
+| **Projetos em Produção/Desenvolvimento** | 6 |
 | **Linguagens Dominadas** | 6+ |
 
 </div>
@@ -121,160 +120,188 @@ Flutter      ████░░░░░░░░░░░░░░░░░ 35%
 
 ## 🚀 Projetos em Produção
 
-### 1. 🤖 **Calm AI Auto** 
-**Automação Inteligente de Prospecting para Vendedores**
+### 1. 🎮 **Skillz BR**
+**Plataforma de Desafios de Habilidade com Premiação em Dinheiro Real**
 
 <table>
   <tr>
     <td width="60%">
-      <p><strong>O que é:</strong> SaaS completo com IA para automação de prospecção, qualificação de leads e campanhas multi-canal.</p>
+      <p><strong>O que é:</strong> Ecossistema completo (app mobile + site web) onde jogadores entram em desafios pagando uma taxa via Pix ou cartão, competem em mais de 15 mini-jogos com pontuação validada 100% no servidor, e o prêmio é distribuído automaticamente entre os primeiros colocados quando a rodada fecha.</p>
       <ul>
-        <li>✅ Análise automática de prospects com IA</li>
-        <li>✅ Scoring inteligente (0-100)</li>
-        <li>✅ Campanhas multi-canal (WhatsApp, Facebook, Instagram, LinkedIn)</li>
-        <li>✅ Analytics em tempo real</li>
-        <li>✅ Follow-ups automáticos</li>
-        <li>✅ ROI comprovado: 3x mais conversões em 60 dias</li>
+        <li>✅ Mais de 15 jogos (quiz, memória, agilidade, arena 3D) com anti-fraude — pontuação sempre revalidada no servidor</li>
+        <li>✅ Pagamentos via Pix e cartão (Mercado Pago), com distribuição de prêmio via função SQL <code>security definer</code></li>
+        <li>✅ Segurança avançada: 2FA (TOTP), verificação de identidade por OCR, alerta de dispositivo novo, auditoria de ações sensíveis, rate limiting em duas camadas</li>
+        <li>✅ Rede social com sistema de criadores/assinatura Pro e comissão variável por selo</li>
+        <li>✅ Painel administrativo completo: usuários, saques, desafios, verificações, suporte, LGPD</li>
+        <li>✅ Auditoria estrutural automatizada no CI que falha o build em padrões de risco conhecidos</li>
       </ul>
-      <p><strong>Stack:</strong> Next.js 14 • Node.js • PostgreSQL • SupaBase • Tailwind</p>
-      <p><strong>Status:</strong> 🟢 Em produção • Faturando</p>
+      <p><strong>Stack:</strong> Next.js 16 (App Router) • React 19 • TypeScript • React Native/Expo • Supabase (Postgres, Auth, RLS, Edge Functions) • Mercado Pago • Upstash Redis • Playwright/Vitest</p>
+      <p><strong>Status:</strong> 🟡 Em desenvolvimento ativo • CI/CD completo • 70+ migrations aplicadas</p>
     </td>
     <td width="40%" align="center">
       <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white" />
       <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
-      <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" />
-      <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white" />
-      <p><strong>Resultados:</strong></p>
-      <p>📊 70% menos tempo</p>
-      <p>📈 3x conversões</p>
-      <p>⚡ ROI em 60 dias</p>
+      <img src="https://img.shields.io/badge/React%20Native-61DAFB?style=flat&logo=react&logoColor=white" />
+      <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white" />
+      <img src="https://img.shields.io/badge/Mercado%20Pago-00B1EA?style=flat&logo=mercadopago&logoColor=white" />
+      <p><strong>Destaques:</strong></p>
+      <p>🔒 Anti-fraude server-side</p>
+      <p>💰 Pix + cartão em tempo real</p>
+      <p>🛡️ 2FA + OCR + auditoria</p>
     </td>
   </tr>
 </table>
 
 ---
 
-### 2. 📚 **Inspect - Cursos e Treinamentos**
-**Plataforma de Cursos Online para Vistoria Veicular**
+### 2. 📚 **Inspect (Cursos Valentim)**
+**Plataforma de Gestão e Venda de Cursos Online**
 
 <table>
   <tr>
     <td width="60%">
-      <p><strong>O que é:</strong> Sistema completo de educação a distância com funcionalidades avançadas de gamificação e controle.</p>
+      <p><strong>O que é:</strong> Sistema web para criação, venda e acompanhamento de cursos, com geração de certificados, emissão de relatórios em PDF e envio de e-mails transacionais.</p>
       <ul>
-        <li>✅ 150+ alunos ativos estudando diariamente</li>
-        <li>✅ 15+ cursos profissionais em produção</li>
-        <li>✅ Taxa de conclusão: 98%</li>
-        <li>✅ Sistema de certificados digitais</li>
-        <li>✅ Gamificação (pontos, badges, ranking)</li>
-        <li>✅ Analytics detalhado de progresso</li>
+        <li>✅ Área de cursos com progresso do aluno e certificado com QR Code de validação</li>
+        <li>✅ Geração de relatórios/documentos em PDF (jsPDF + html2canvas)</li>
+        <li>✅ Envio de e-mails automatizados (Resend/Nodemailer)</li>
+        <li>✅ Interface completa com componentes Radix UI/shadcn (formulários, dashboards, tabelas)</li>
+        <li>✅ Autenticação e persistência de dados via Supabase</li>
       </ul>
-      <p><strong>Stack:</strong> React • Node.js • SupaBase • Tailwind</p>
-      <p><strong>Status:</strong> 🟢 Em produção • 150+ usuários ativos</p>
+      <p><strong>Stack:</strong> Next.js 15 • React 19 • TypeScript • Tailwind CSS • Supabase (Auth + Postgres) • Radix UI • Resend</p>
+      <p><strong>Status:</strong> 🟢 Em produção</p>
     </td>
     <td width="40%" align="center">
+      <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white" />
       <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=white" />
-      <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" />
-      <img src="https://img.shields.io/badge/SupaBase-3ECF8E?style=flat&logo=supabase&logoColor=white" />
-      <p><strong>Impacto:</strong></p>
-      <p>👥 150+ alunos</p>
-      <p>📊 98% conclusão</p>
-      <p>🎓 15+ cursos</p>
+      <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white" />
+      <p><strong>Destaques:</strong></p>
+      <p>🎓 Certificados com QR Code</p>
+      <p>📄 Relatórios em PDF</p>
+      <p>📧 E-mails transacionais</p>
     </td>
   </tr>
 </table>
 
 ---
 
-### 3. 🛋️ **Sonhar Colchões & Estofados**
-**Dashboard Comercial para Gestão de Operações Varejistas**
+### 3. 🏢 **Calmdev**
+**Site Institucional + Painel Interno de Software House**
 
 <table>
   <tr>
     <td width="60%">
-      <p><strong>O que é:</strong> Sistema completo de gerenciamento para operação de loja física no maior shopping da região.</p>
+      <p><strong>O que é:</strong> Site institucional de estúdio de desenvolvimento sob medida (sites, e-commerce, apps e sistemas), com painel interno de CRM de leads e gerador de bio-links usados como isca comercial para prospects.</p>
       <ul>
-        <li>✅ Dashboard analytics em tempo real</li>
-        <li>✅ Gestão completa de vendas</li>
-        <li>✅ Controle de estoque integrado</li>
-        <li>✅ Gestão de CRM de clientes</li>
-        <li>✅ Integração com WhatsApp, email e SMS</li>
-        <li>✅ Relatórios financeiros automatizados</li>
+        <li>✅ Landing page com portfólio, pacotes de serviço e captação de leads</li>
+        <li>✅ Gerador de bio-links com templates por segmento, kit de entrega (QR Code, mensagem, card) e analytics de cliques</li>
+        <li>✅ CRM interno de leads</li>
+        <li>✅ Conteúdo do site 100% gerenciável por arquivos de configuração, sem precisar mexer em UI</li>
       </ul>
-      <p><strong>Stack:</strong> React • TypeScript • Node.js • MySQL • Tailwind</p>
-      <p><strong>Status:</strong> 🟢 Em produção • Via Café Garden Shopping</p>
-    </td>
-    <td width="40%" align="center">
-      <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=white" />
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
-      <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" />
-      <p><strong>Escala:</strong></p>
-      <p>🏪 Loja física</p>
-      <p>📊 Dashboard operacional</p>
-      <p>💼 ERP integrado</p>
-    </td>
-  </tr>
-</table>
-
----
-
-### 4. 🖼️ **CalmImagens**
-**Plataforma de Hospedagem de Imagens**
-
-<table>
-  <tr>
-    <td width="60%">
-      <p><strong>O que é:</strong> Solução simples e prática para upload, armazenamento e compartilhamento de imagens.</p>
-      <ul>
-        <li>✅ Upload instantâneo de arquivos</li>
-        <li>✅ Links únicos para cada imagem</li>
-        <li>✅ Otimização automática</li>
-        <li>✅ Compatível com qualquer projeto</li>
-        <li>✅ Sem preocupação com servidores</li>
-      </ul>
-      <p><strong>Stack:</strong> React • TypeScript • SupaBase • Tailwind</p>
+      <p><strong>Stack:</strong> TanStack Start (React + SSR) • Vite • TypeScript • Tailwind CSS • Supabase (Postgres, Auth, Storage)</p>
       <p><strong>Status:</strong> 🟢 Em produção</p>
     </td>
     <td width="40%" align="center">
       <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=white" />
-      <img src="https://img.shields.io/badge/SupaBase-3ECF8E?style=flat&logo=supabase&logoColor=white" />
       <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
-      <p><strong>Features:</strong></p>
-      <p>📤 Upload instant</p>
-      <p>🔗 Links únicos</p>
-      <p>⚡ Rápido & confiável</p>
+      <img src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white" />
+      <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white" />
+      <p><strong>Destaques:</strong></p>
+      <p>🔗 Bio-links com analytics</p>
+      <p>📊 CRM de leads</p>
+      <p>⚙️ Site config-driven</p>
     </td>
   </tr>
 </table>
 
 ---
 
-### 5. 📱 **Conecta Cidade**
-**Aplicativo Mobile para Problemas Urbanos**
+### 4. 💰 **Cúpula Financeira**
+**Aplicativo de Gestão Financeira Pessoal (Desktop + Web)**
 
 <table>
   <tr>
     <td width="60%">
-      <p><strong>O que é:</strong> Plataforma multiplataforma conectando cidadãos para relatar e resolver problemas urbanos.</p>
+      <p><strong>O que é:</strong> Aplicativo de controle financeiro pessoal disponível como app desktop (Windows, via Electron) e também como versão web, com dashboards e gráficos para acompanhamento de gastos e receitas.</p>
       <ul>
-        <li>✅ App mobile nativo (Android)</li>
-        <li>✅ Sistema administrativo web</li>
-        <li>✅ Integração com órgãos públicos</li>
-        <li>✅ Geolocalização automática</li>
-        <li>✅ Rastreamento de ocorrências</li>
-        <li>✅ Sistema de notificações em tempo real</li>
+        <li>✅ Dashboard com gráficos de receitas/despesas (Recharts)</li>
+        <li>✅ Versão desktop nativa para Windows (instalador NSIS/AppX via Electron Builder)</li>
+        <li>✅ Versão web (TanStack Start) sincronizada com o mesmo backend</li>
+        <li>✅ Geração de QR Code e relatórios financeiros</li>
+        <li>✅ Dados persistidos e sincronizados via Supabase</li>
       </ul>
-      <p><strong>Stack:</strong> React Native • Expo • Node.js • SupaBase</p>
-      <p><strong>Status:</strong> 🟢 Em produção • Disponível em Android</p>
+      <p><strong>Stack:</strong> React • TypeScript • Vite • Electron (desktop) • TanStack Start (web) • Supabase (Postgres, Auth)</p>
+      <p><strong>Status:</strong> 🟢 Em produção • v2.2.0 (app desktop)</p>
     </td>
     <td width="40%" align="center">
-      <img src="https://img.shields.io/badge/React%20Native-61DAFB?style=flat&logo=react&logoColor=white" />
-      <img src="https://img.shields.io/badge/Expo-000020?style=flat&logo=expo&logoColor=white" />
+      <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=white" />
+      <img src="https://img.shields.io/badge/Electron-47848F?style=flat&logo=electron&logoColor=white" />
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
+      <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white" />
+      <p><strong>Destaques:</strong></p>
+      <p>🖥️ App desktop Windows</p>
+      <p>🌐 Web sincronizada</p>
+      <p>📈 Dashboards financeiros</p>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 5. 🔄 **Keep Alive (Supabase Sentinel)**
+**Utilitário de Monitoramento Anti-Pausa de Bancos Supabase**
+
+<table>
+  <tr>
+    <td width="60%">
+      <p><strong>O que é:</strong> Serviço leve que faz pings periódicos em projetos Supabase/Neon — cujos planos gratuitos pausam bancos inativos após um tempo — mantendo os projetos pessoais sempre ativos sem custo.</p>
+      <ul>
+        <li>✅ Ping agendado (cron) contra múltiplos projetos Supabase/Neon</li>
+        <li>✅ Autenticação via JWT</li>
+        <li>✅ Deploy serverless (Netlify/Vercel Functions)</li>
+      </ul>
+      <p><strong>Stack:</strong> Node.js • Supabase JS SDK • Neon serverless driver • JWT • Netlify/Vercel Functions</p>
+      <p><strong>Status:</strong> 🟢 Em produção • Uso interno/pessoal</p>
+    </td>
+    <td width="40%" align="center">
       <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" />
-      <p><strong>Escala:</strong></p>
-      <p>📱 Mobile-first</p>
-      <p>🌍 Geolocalizado</p>
-      <p>🔔 Real-time</p>
+      <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white" />
+      <img src="https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white" />
+      <p><strong>Destaques:</strong></p>
+      <p>⏰ Cron agendado</p>
+      <p>🔐 Auth via JWT</p>
+      <p>⚡ 100% serverless</p>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 6. 🧾 **Consolidaí ERP** <sub>(projeto profissional — dev pleno)</sub>
+**ERP Fiscal Completo com Foco em Conformidade Tributária**
+
+<table>
+  <tr>
+    <td width="60%">
+      <p><strong>O que é:</strong> Sistema ERP multi-módulo desenvolvido e mantido em equipe, cobrindo emissão fiscal (NFe/NFS-e), gestão financeira e integrações de pagamento. Atuo como desenvolvedor pleno no time, atualizando o ambiente de testes (DEV) antes da promoção para produção.</p>
+      <ul>
+        <li>✅ Emissão de NF-e/NFS-e com suporte à Reforma Tributária (validação de XML conforme IBS/CBS)</li>
+        <li>✅ Microsserviço dedicado de NFS-e</li>
+        <li>✅ Integrações com gateways de pagamento (Asaas) e IA para automações internas</li>
+        <li>✅ Arquitetura em camadas (Controllers, Models, Services, Views) com ambiente DEV isolado de produção</li>
+        <li>✅ Suíte de testes e scripts utilitários para validação fiscal automatizada</li>
+      </ul>
+      <p><strong>Stack:</strong> PHP (arquitetura MVC própria) • MySQL • integrações REST (Asaas, Supabase, IA) • Apache</p>
+      <p><strong>Status:</strong> 🟢 Em produção • Atendendo empresas clientes reais</p>
+    </td>
+    <td width="40%" align="center">
+      <img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white" />
+      <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" />
+      <img src="https://img.shields.io/badge/Apache-D22128?style=flat&logo=apache&logoColor=white" />
+      <p><strong>Destaques:</strong></p>
+      <p>🧾 NFe/NFS-e + Reforma Tributária</p>
+      <p>💳 Integração Asaas</p>
+      <p>👥 Time de manutenção/evolução</p>
     </td>
   </tr>
 </table>
@@ -304,15 +331,16 @@ Responsabilidades:
 
 ---
 
-### 🎓 **Projetos Acadêmicos & Pessoais** | _2023 - Atual_
+### 🎓 **Projetos Pessoais & Profissionais**
 
-| Projeto | Período | Descrição |
-|---------|---------|-----------|
-| **Sonhar Colchões** | 2024-2025 | Sistema comercial completo para loja física |
-| **Inspect Cursos** | 2024-2025 | Plataforma de educação com 150+ alunos |
-| **Conecta Cidade** | 2024-2026 | App mobile multiplataforma |
-| **Calm AI Auto** | 2025-Atual | SaaS com IA em produção faturando |
-| **CloudBase Engine** | 2023-2024 | Motor de database em baixo nível |
+| Projeto | Status | Descrição |
+|---------|--------|-----------|
+| **Skillz BR** | 🟡 Em desenvolvimento ativo | App + site de desafios com premiação real via Pix |
+| **Inspect (Cursos Valentim)** | 🟢 Em produção | Plataforma de gestão e venda de cursos online |
+| **Calmdev** | 🟢 Em produção | Site institucional + CRM interno de software house |
+| **Cúpula Financeira** | 🟢 Em produção | App de gestão financeira pessoal (desktop + web) |
+| **Keep Alive** | 🟢 Em produção | Monitoramento anti-pausa de bancos Supabase/Neon |
+| **Consolidaí ERP** | 🟢 Em produção | ERP fiscal (NFe/NFS-e) — projeto profissional em equipe |
 
 ---
 
@@ -417,10 +445,10 @@ SQL           ██░░░░░░░░░░░░░░░░░░ 10%
 
 - 🏆 **109 Pull Requests Aprovadas** em ambiente enterprise (Consolidai)
 - 📊 **1.200+ Contribuições** em 12 meses consecutivos
-- 🚀 **5 Produtos em Produção** com centenas de usuários
-- 💰 **Calm AI Auto** gerando receita mensal
-- 👥 **150+ Usuários Ativos** na plataforma Inspect Cursos
-- 📱 **Conecta Cidade** distribuído no Google Play
+- 🚀 **6 Projetos** em produção ou desenvolvimento ativo
+- 🎮 **Skillz BR** — plataforma de desafios com premiação real e distribuição automática via SQL security definer
+- 🧾 **Consolidaí ERP** — atuação profissional como dev pleno em ERP fiscal atendendo empresas reais
+- 🔐 Implementação de segurança avançada (2FA, OCR, auditoria, rate limiting) no Skillz BR
 
 ---
 
