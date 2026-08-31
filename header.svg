@@ -1,0 +1,61 @@
+<svg width="700" height="60" viewBox="0 0 700 60" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .banner-text {
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: 700;
+      font-size: 26px;
+      fill: #7B2CBF;
+      text-anchor: middle;
+    }
+    .line0 { animation: line0 20s infinite; }
+    .line1 { animation: line1 20s infinite; }
+    .line2 { animation: line2 20s infinite; }
+    .line3 { animation: line3 20s infinite; }
+    .line4 { animation: line4 20s infinite; }
+
+    @keyframes line0 {
+      0%    { opacity: 0; transform: translateX(15px); }
+      7.5%  { opacity: 1; transform: translateX(0); }
+      17.5% { opacity: 1; transform: translateX(0); }
+      20%   { opacity: 0; transform: translateX(-15px); }
+      100%  { opacity: 0; transform: translateX(-15px); }
+    }
+    @keyframes line1 {
+      0%    { opacity: 0; transform: translateX(15px); }
+      20%   { opacity: 0; transform: translateX(15px); }
+      27.5% { opacity: 1; transform: translateX(0); }
+      37.5% { opacity: 1; transform: translateX(0); }
+      40%   { opacity: 0; transform: translateX(-15px); }
+      100%  { opacity: 0; transform: translateX(-15px); }
+    }
+    @keyframes line2 {
+      0%    { opacity: 0; transform: translateX(15px); }
+      40%   { opacity: 0; transform: translateX(15px); }
+      47.5% { opacity: 1; transform: translateX(0); }
+      57.5% { opacity: 1; transform: translateX(0); }
+      60%   { opacity: 0; transform: translateX(-15px); }
+      100%  { opacity: 0; transform: translateX(-15px); }
+    }
+    @keyframes line3 {
+      0%    { opacity: 0; transform: translateX(15px); }
+      60%   { opacity: 0; transform: translateX(15px); }
+      67.5% { opacity: 1; transform: translateX(0); }
+      77.5% { opacity: 1; transform: translateX(0); }
+      80%   { opacity: 0; transform: translateX(-15px); }
+      100%  { opacity: 0; transform: translateX(-15px); }
+    }
+    @keyframes line4 {
+      0%    { opacity: 0; transform: translateX(15px); }
+      80%   { opacity: 0; transform: translateX(15px); }
+      87.5% { opacity: 1; transform: translateX(0); }
+      97.5% { opacity: 1; transform: translateX(0); }
+      100%  { opacity: 0; transform: translateX(-15px); }
+    }
+  </style>
+
+  <text x="350" y="38" class="banner-text line0">João Gabriel Vale Souza</text>
+  <text x="350" y="38" class="banner-text line1">Full Stack Developer | Software Engineer</text>
+  <text x="350" y="38" class="banner-text line2">Criador de Soluções Escaláveis em Produção</text>
+  <text x="350" y="38" class="banner-text line3">1.200+ Contribuições | 109 PRs Aprovadas</text>
+  <text x="350" y="38" class="banner-text line4">Torcedor do Galo - Atlético Mineiro</text>
+</svg>

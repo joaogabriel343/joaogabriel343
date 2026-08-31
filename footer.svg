@@ -1,0 +1,31 @@
+<svg width="500" height="35" viewBox="0 0 500 35" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .footer-text {
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: 500;
+      font-size: 18px;
+      fill: #7B2CBF;
+      text-anchor: middle;
+    }
+    .f0 { animation: f0 8s infinite; }
+    .f1 { animation: f1 8s infinite; }
+
+    @keyframes f0 {
+      0%     { opacity: 0; transform: translateX(15px); }
+      18.75% { opacity: 1; transform: translateX(0); }
+      43.75% { opacity: 1; transform: translateX(0); }
+      50%    { opacity: 0; transform: translateX(-15px); }
+      100%   { opacity: 0; transform: translateX(-15px); }
+    }
+    @keyframes f1 {
+      0%     { opacity: 0; transform: translateX(15px); }
+      50%    { opacity: 0; transform: translateX(15px); }
+      68.75% { opacity: 1; transform: translateX(0); }
+      93.75% { opacity: 1; transform: translateX(0); }
+      100%   { opacity: 0; transform: translateX(-15px); }
+    }
+  </style>
+
+  <text x="250" y="22" class="footer-text f0">Obrigado por visitar!</text>
+  <text x="250" y="22" class="footer-text f1">Vamos construir algo incrível?</text>
+</svg>
