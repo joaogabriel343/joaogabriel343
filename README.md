@@ -54,7 +54,7 @@ Atualmente desenvolvendo sistemas críticos na **Consolidai Sistemas** com respo
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.demolab.com/?user=joaogabriel343&theme=dark&stroke=7B2CBF&ring=7B2CBF" alt="GitHub Streak Stats" />
+  <img src="https://streak-stats.demolab.com/?user=joaogabriel343&theme=dark&stroke=7B2CBF&ring=7B2CBF" alt="GitHub Streak Stats" />
 </div>
 
 ---
